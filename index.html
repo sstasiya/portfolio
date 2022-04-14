@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon_me.png">
+    <script src="https://kit.fontawesome.com/f22757e368.js" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-74B0QCD8SG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-74B0QCD8SG');
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+    <title>Anastasiya Legunyak</title>
+</head>
+<body id="container">
+    <a class="skip" href=#main>Skip to Main Content</a>
+    <header>
+        <nav>
+            <ul>
+                <li id="selected"><a>ABOUT</a></li>
+                <li><a class="bar" href="resume.html">RESUME</a></li>
+                <li><a class="bar" href="projects.html">PROJECTS</a></li>
+                <li><a class="bar" href="travel.html">TRAVEL</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="about" id="main">
+        <h1>About Me</h1>
+        <div class="left">
+            <div class="avi">
+                <img src = "images/Anastasiya.jpg" alt = "Anastasiya Legunyak" width="200" id="avi"/>
+                <div class="icons">
+                <a href="https://www.linkedin.com/in/stasiya/" aria-label="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="https://open.spotify.com/playlist/52WdRQ0dYo4bLohjrz4YiA?si=315c74c3aa8b47bc" aria-label="spotify playlist"><i class="fa-brands fa-spotify"></i></a>
+            </div>
+        </div>
+        <div class="facts">
+             <p><span>Name:</span> Anastasiya Legunyak</p>
+             <p><span>Pronouns:</span> she/her/hers</p>
+             <p><span>School:</span> University of Michigan</p>
+             <p><span>Age:</span> 19</p>
+             <p><span>Hometown:</span> Farmington, MI</p>
+        </div>
+        </div>
+        <div class="content">
+            <p>My name is Anastasiya Legunyak. I am currently a sophmore at the University of Michigan 
+                studying Computer Science in the College of Literature, Science, and the Arts. 
+                My work intrests are in software development, artificial intelligence and machine learning. </p>
+            <ul class="history">
+                <li><p>In 2007, my family won a greencard, so we left everything we knew and moved to the United States 
+                  from Ukraine. I lived in Chicago for a few years before permenantly moving to metro Detroit. </p></li>
+                <li><p>In 2019, as I was applying to colleges, I found out about computer sceince and decided that 
+                I would be majoring in it. Since then, I have never considered changing my major and have loved
+              learning how to be a good computer scientist. </p></li>
+                <li><p>In 2020, I graduated high school during the pandemic and started my freshmen year online 
+                at the University of Michigan. </p></li>
+            </ul>
+        </div>
+
+    <div class="container">  
+        <form id="contact" action="https://formspree.io/f/xwkyqojv" method="POST">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="images/envelope.png" alt="envelope" id="envelope"> 
+                  </div>
+                  <div class="flip-card-back">
+                    <h2>Contact me!</h2> 
+                  </div>
+                </div>
+            </div>
+          <fieldset>
+              <label for="name">Name:</label>
+                  <input placeholder="first last" type="text" id="name" name="name" required>
+          </fieldset>
+          <fieldset>
+            <label for="email">Email Address:</label>
+            <input placeholder="janedoe@example.com" type="email" id="email" name="email" >
+          </fieldset>
+          <fieldset>
+            <label for="number">Phone number:</label>
+            <input placeholder="123-456-7890" type="tel" id="number" name="number" >
+          </fieldset>
+          <fieldset>
+              <label for="message">Message:</label>
+            <textarea placeholder="Type your message here...." id="message" name="message" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+    <footer>
+        <p>Anastasiya Legunyak © 2022</p>
+    </footer>
+    
+</body>
+</html>
